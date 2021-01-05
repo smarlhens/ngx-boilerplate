@@ -1,20 +1,20 @@
-# Angular 10 - Boilerplate
+# Angular 11 - Boilerplate
 
-[![GitHub CI](https://github.com/smarlhens/ng10-boilerplate/workflows/CI/badge.svg)](https://github.com/smarlhens/ng10-boilerplate/actions?query=workflow%3ACI)
-[![CircleCI](https://circleci.com/gh/smarlhens/ng10-boilerplate.svg?style=svg)](https://circleci.com/gh/smarlhens/ng10-boilerplate)
-[![Build Status](https://travis-ci.com/smarlhens/ng10-boilerplate.svg?branch=master)](https://travis-ci.com/smarlhens/ng10-boilerplate)
+[![GitHub CI](https://github.com/smarlhens/ng11-boilerplate/workflows/CI/badge.svg)](https://github.com/smarlhens/ng11-boilerplate/actions?query=workflow%3ACI)
+[![CircleCI](https://circleci.com/gh/smarlhens/ng11-boilerplate.svg?style=svg)](https://circleci.com/gh/smarlhens/ng11-boilerplate)
+[![Build Status](https://travis-ci.com/smarlhens/ng11-boilerplate.svg?branch=master)](https://travis-ci.com/smarlhens/ng11-boilerplate)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
-[![GitHub issues](https://img.shields.io/github/issues/smarlhens/ng10-boilerplate)](https://github.com/smarlhens/ng10-boilerplate/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/smarlhens/ng10-boilerplate)](https://github.com/smarlhens/ng10-boilerplate/pulls)
-[![GitHub stars](https://img.shields.io/github/stars/smarlhens/ng10-boilerplate)](https://github.com/smarlhens/ng10-boilerplate/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/smarlhens/ng10-boilerplate)](https://github.com/smarlhens/ng10-boilerplate/network)
-[![GitHub contributors](https://img.shields.io/github/contributors/smarlhens/ng10-boilerplate)](https://github.com/smarlhens/ng10-boilerplate/graphs/contributors)
-[![GitHub license](https://img.shields.io/github/license/smarlhens/ng10-boilerplate)](https://github.com/smarlhens/ng10-boilerplate)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/smarlhens/ng10-boilerplate)
-![GitHub repo size](https://img.shields.io/github/repo-size/smarlhens/ng10-boilerplate)
-[![HitCount](http://hits.dwyl.io/smarlhens/ng10-boilerplate.svg)](http://hits.dwyl.io/smarlhens/ng10-boilerplate)
+[![GitHub issues](https://img.shields.io/github/issues/smarlhens/ng11-boilerplate)](https://github.com/smarlhens/ng11-boilerplate/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/smarlhens/ng11-boilerplate)](https://github.com/smarlhens/ng11-boilerplate/pulls)
+[![GitHub stars](https://img.shields.io/github/stars/smarlhens/ng11-boilerplate)](https://github.com/smarlhens/ng11-boilerplate/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/smarlhens/ng11-boilerplate)](https://github.com/smarlhens/ng11-boilerplate/network)
+[![GitHub contributors](https://img.shields.io/github/contributors/smarlhens/ng11-boilerplate)](https://github.com/smarlhens/ng11-boilerplate/graphs/contributors)
+[![GitHub license](https://img.shields.io/github/license/smarlhens/ng11-boilerplate)](https://github.com/smarlhens/ng11-boilerplate)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/smarlhens/ng11-boilerplate)
+![GitHub repo size](https://img.shields.io/github/repo-size/smarlhens/ng11-boilerplate)
+[![HitCount](http://hits.dwyl.io/smarlhens/ng11-boilerplate.svg)](http://hits.dwyl.io/smarlhens/ng11-boilerplate)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0.
 
@@ -57,13 +57,13 @@ What things you need to install the software and how to install them :
 1. Clone the git repository
 
    ```bash
-   git clone https://github.com/smarlhens/ng10-boilerplate.git
+   git clone https://github.com/smarlhens/ng11-boilerplate.git
    ```
 
 1. Go into the project directory
 
    ```bash
-   cd ng10-boilerplate/
+   cd ng11-boilerplate/
    ```
 
 1. Checkout working branch
@@ -80,7 +80,7 @@ What things you need to install the software and how to install them :
 
 [CircleCI](https://circleci.com/) automates your software builds, tests, and deployments.
 
-**CircleCI pipeline file**: [`.circleci/config.yml`](https://github.com/smarlhens/ng10-boilerplate/blob/master/.circleci/config.yml).
+**CircleCI pipeline file**: [`.circleci/config.yml`](https://github.com/smarlhens/ng11-boilerplate/blob/master/.circleci/config.yml).
 
 For more configuration options and details, see the [configuration docs](https://circleci.com/docs/).
 
@@ -94,7 +94,7 @@ Use `git cz` instead of `git commit` to use commitizen.
 
 [![Add and commit with Commitizen](https://github.com/commitizen/cz-cli/raw/master/meta/screenshots/add-commit.png)](https://github.com/commitizen/cz-cli/raw/master/meta/screenshots/add-commit.png)
 
-**Configuration file**: [`.czrc`](https://github.com/smarlhens/ng10-boilerplate/blob/master/.czrc).
+**Configuration file**: [`.czrc`](https://github.com/smarlhens/ng11-boilerplate/blob/master/.czrc).
 
 ---
 
@@ -102,7 +102,7 @@ Use `git cz` instead of `git commit` to use commitizen.
 
 [commitlint](https://github.com/conventional-changelog/commitlint) checks if your commit messages meet the [conventional commit format](https://conventionalcommits.org).
 
-**Configuration file**: [`.commitlintrc`](https://github.com/smarlhens/ng10-boilerplate/blob/master/.commitlintrc).
+**Configuration file**: [`.commitlintrc`](https://github.com/smarlhens/ng11-boilerplate/blob/master/.commitlintrc).
 
 In general the pattern mostly looks like this:
 
@@ -118,8 +118,8 @@ Are you a good `commitizen` ?
 
 [ESLint](https://eslint.org/) is a fully pluggable tool for identifying and reporting on patterns in JavaScript.
 
-**Ignore file**: [`.eslintignore`](https://github.com/smarlhens/ng10-boilerplate/blob/master/.eslintignore).
-**Configuration file**: [`.eslintrc`](https://github.com/smarlhens/ng10-boilerplate/blob/master/.eslintrc).
+**Ignore file**: [`.eslintignore`](https://github.com/smarlhens/ng11-boilerplate/blob/master/.eslintignore).
+**Configuration file**: [`.eslintrc`](https://github.com/smarlhens/ng11-boilerplate/blob/master/.eslintrc).
 
 For more configuration options and details, see the [configuration docs](https://eslint.org/docs/user-guide/configuring).
 
@@ -129,7 +129,7 @@ For more configuration options and details, see the [configuration docs](https:/
 
 [GitHub Actions](https://github.com/features/actions) makes it easy to automate all your software workflows, now with world-class CI/CD. Build, test, and deploy your code right from GitHub. Make code reviews, branch management, and issue triaging work the way you want.
 
-**CI workflow file**: [`.github/workflows/ci.yml`](https://github.com/smarlhens/ng10-boilerplate/blob/master/.github/workflows/ci.yml).
+**CI workflow file**: [`.github/workflows/ci.yml`](https://github.com/smarlhens/ng11-boilerplate/blob/master/.github/workflows/ci.yml).
 
 ---
 
@@ -137,7 +137,7 @@ For more configuration options and details, see the [configuration docs](https:/
 
 [Husky](https://github.com/typicode/husky) is a package that helps you create Git hooks easily.
 
-**Configuration file**: [`.huskyrc`](https://github.com/smarlhens/ng10-boilerplate/blob/master/.huskyrc).
+**Configuration file**: [`.huskyrc`](https://github.com/smarlhens/ng11-boilerplate/blob/master/.huskyrc).
 
 ---
 
@@ -145,7 +145,7 @@ For more configuration options and details, see the [configuration docs](https:/
 
 [Lint-staged](https://github.com/okonet/lint-staged) is a Node.js script that allows you to run arbitrary scripts against currently staged files.
 
-**Configuration file**: [`.lintstagedrc`](https://github.com/smarlhens/ng10-boilerplate/blob/master/.lintstagedrc).
+**Configuration file**: [`.lintstagedrc`](https://github.com/smarlhens/ng11-boilerplate/blob/master/.lintstagedrc).
 
 ---
 
@@ -153,8 +153,8 @@ For more configuration options and details, see the [configuration docs](https:/
 
 [Prettier](https://prettier.io/) is an opinionated code formatter.
 
-**Configuration file**: [`.prettierrc`](https://github.com/smarlhens/ng10-boilerplate/blob/master/.prettierrc).  
-**Ignore file**: [`.prettierignore`](https://github.com/smarlhens/ng10-boilerplate/blob/master/.prettierignore).
+**Configuration file**: [`.prettierrc`](https://github.com/smarlhens/ng11-boilerplate/blob/master/.prettierrc).  
+**Ignore file**: [`.prettierignore`](https://github.com/smarlhens/ng11-boilerplate/blob/master/.prettierignore).
 
 For more configuration options and details, see the [configuration docs](https://prettier.io/docs/en/configuration.html).
 
@@ -164,7 +164,7 @@ For more configuration options and details, see the [configuration docs](https:/
 
 [Travis CI](https://travis-ci.com/) is a hosted continuous integration service used to build and test software projects hosted at GitHub.
 
-**Travis build file**: [`.travis.yml`](https://github.com/smarlhens/ng10-boilerplate/blob/master/.travis.yml).
+**Travis build file**: [`.travis.yml`](https://github.com/smarlhens/ng11-boilerplate/blob/master/.travis.yml).
 
 For more configuration options and details, see the [configuration docs](https://docs.travis-ci.com/).
 
@@ -202,6 +202,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
----
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

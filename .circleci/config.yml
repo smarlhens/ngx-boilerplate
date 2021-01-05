@@ -2,7 +2,7 @@ version: 2
 
 jobs:
   checkout:
-    working_directory: ~/ng10-boilerplate
+    working_directory: ~/ng11-boilerplate
     docker:
       - image: circleci/node:12-browsers
     steps:
@@ -10,9 +10,9 @@ jobs:
       - save_cache:
           key: v0-repo-{{ .Branch }}-{{ .Environment.CIRCLE_SHA1 }}
           paths:
-            - ~/ng10-boilerplate
+            - ~/ng11-boilerplate
   dependencies:
-    working_directory: ~/ng10-boilerplate
+    working_directory: ~/ng11-boilerplate
     docker:
       - image: circleci/node:12-browsers
     steps:
@@ -26,9 +26,9 @@ jobs:
       - save_cache:
           key: v0-node-{{ .Branch }}-{{ checksum "package.json" }}
           paths:
-            - ~/ng10-boilerplate/node_modules
+            - ~/ng11-boilerplate/node_modules
   lint:
-    working_directory: ~/ng10-boilerplate
+    working_directory: ~/ng11-boilerplate
     docker:
       - image: circleci/node:12-browsers
     steps:
@@ -46,7 +46,7 @@ jobs:
           name: Prettier
           command: npm run prettier:check
   build:
-    working_directory: ~/ng10-boilerplate
+    working_directory: ~/ng11-boilerplate
     docker:
       - image: circleci/node:12-browsers
     steps:
@@ -60,9 +60,9 @@ jobs:
       - save_cache:
           key: v0-build-{{ .Branch }}-{{ .Environment.CIRCLE_SHA1 }}
           paths:
-            - ~/ng10-boilerplate/dist/ng10-boilerplate
+            - ~/ng11-boilerplate/dist/ng11-boilerplate
   test:
-    working_directory: ~/ng10-boilerplate
+    working_directory: ~/ng11-boilerplate
     docker:
       - image: circleci/node:12-browsers
     steps:

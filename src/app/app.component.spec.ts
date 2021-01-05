@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'ng10-boilerplate'`, () => {
+  it(`should have as title 'ng11-boilerplate'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ng10-boilerplate');
+    expect(app.title).toEqual('ng11-boilerplate');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('ng10-boilerplate app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('ng11-boilerplate app is running!');
   });
 });
