@@ -1,6 +1,6 @@
-# Angular 11 - Boilerplate
+# Angular 12 - Boilerplate
 
-[![GitHub CI](https://github.com/smarlhens/ngx-boilerplate/workflows/ci/badge.svg?branch=ng-12)](https://github.com/smarlhens/ngx-boilerplate/actions?query=workflow%3ACI)
+[![GitHub CI](https://github.com/smarlhens/ngx-boilerplate/workflows/ci/badge.svg?branch=ng-12)](https://github.com/smarlhens/ngx-boilerplate/actions/workflows/ci.yml)
 [![CircleCI](https://circleci.com/gh/smarlhens/ngx-boilerplate/ng-12?style=svg)](https://circleci.com/gh/smarlhens/ngx-boilerplate)
 [![Build Status](https://travis-ci.com/smarlhens/ngx-boilerplate.svg?branch=ng-12)](https://travis-ci.com/smarlhens/ngx-boilerplate)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
@@ -11,9 +11,9 @@
 [![GitHub stars](https://img.shields.io/github/stars/smarlhens/ngx-boilerplate)](https://github.com/smarlhens/ngx-boilerplate/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/smarlhens/ngx-boilerplate)](https://github.com/smarlhens/ngx-boilerplate/network)
 [![GitHub contributors](https://img.shields.io/github/contributors/smarlhens/ngx-boilerplate)](https://github.com/smarlhens/ngx-boilerplate/graphs/contributors)
-[![GitHub license](https://img.shields.io/github/license/smarlhens/ngx-boilerplate/ng-12)](https://github.com/smarlhens/ngx-boilerplate/tree/ng-12)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/smarlhens/ngx-boilerplate/ng-12)
-![GitHub repo size](https://img.shields.io/github/repo-size/smarlhens/ngx-boilerplate/ng-12)
+[![GitHub license](https://img.shields.io/github/license/smarlhens/ngx-boilerplate)](https://github.com/smarlhens/ngx-boilerplate/tree/ng-12)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/smarlhens/ngx-boilerplate)
+![GitHub repo size](https://img.shields.io/github/repo-size/smarlhens/ngx-boilerplate)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
 
