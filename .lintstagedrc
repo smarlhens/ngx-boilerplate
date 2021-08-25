@@ -1,0 +1,4 @@
+{
+  "./**/*.{js,jsx}": ["npm run --silent lint:js:fix"],
+  "./**/*.{ts,js,scss,html,json,*rc}": ["npm run prettier:write"]
+}
