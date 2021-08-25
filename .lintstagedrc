@@ -1,0 +1,4 @@
+{
+  "src/**/*.{js,jsx}": ["npm run --silent lint:js:fix", "git add"],
+  "src/**/*.scss": ["npm run --silent lint:scss:fix", "git add"]
+}
